@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetZone - Tienda de Mascotas</title>
+  <link rel="stylesheet" href="assets/css/app_mascotas.css" />
+</head>
+<body>
+
+  <header>
+  <nav class="nav">
+    <div class="nav-container">
+      <a class="nav-brand" href="#">🐾 PetZone</a>
+
+      <button class="nav-toggle" id="navToggle">☰</button>
+      
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#juguetes">Juguetes</a></li>
+          <li><a class="nav-link" href="#alimentos">Alimentos</a></li>
+          <li><a class="nav-link" href="#accesorios">Accesorios</a></li>
+          <li><a class="nav-link" href="#contacto">contacto</a></li>
+        </ul>
+
+        <a href="#carrito" class="btn btn-light">🛒 Ver Carrito</a>
+        <button class="btn btn-outline" id="btn_logout">Cerrar Sesión</button>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="container">
+    <h2 class="title">Catálogo de Productos</h2>
+
+    
+    <section id="juguetes">
+      <h3 class="section-title">🎾 Juguetes</h3>
+      <div class="grid">
+        
+        <div class="card">
+          <img src="assets/image/imagenes/descarga.jpeg" class="card-img" alt="Pelota de goma">
+          <div class="card-body">
+            <h5 class="card-title">Pelota de Goma</h5>
+            <p class="card-text">Para perros pequeños.</p>
+            <p class="price">$12.000</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-success agregar-carrito" data-nombre="Pelota de Goma" data-precio="12000">
+              Agregar
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/image/imagenes/descarga (1).jpeg" class="card-img" alt="Cuerda mordedora">
+          <div class="card-body">
+            <h5 class="card-title">Cuerda Mordedora</h5>
+            <p class="card-text">Refuerza la mandíbula.</p>
+            <p class="price">$15.500</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-success agregar-carrito" data-nombre="Cuerda Mordedora" data-precio="15500">
+              Agregar
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  
+    <section id="alimentos">
+      <h3 class="section-title">🍖 Alimentos</h3>
+      <div class="grid">
+
+        <div class="card">
+          <img src="assets/image/imagenes/descarga (2).jpeg" class="card-img" alt="Concentrado Premium">
+          <div class="card-body">
+            <h5 class="card-title">Concentrado Premium</h5>
+            <p class="card-text">Alimento completo.</p>
+            <p class="price">$68.000</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-success agregar-carrito" data-nombre="Concentrado Premium" data-precio="68000">
+              Agregar
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/image/imagenes/descarga (3).jpeg" class="card-img" alt="Galletas de premio">
+          <div class="card-body">
+            <h5 class="card-title">Galletas de Premio</h5>
+            <p class="card-text">Ideales para entrenamiento.</p>
+            <p class="price">$9.500</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-success agregar-carrito" data-nombre="Galletas de Premio" data-precio="9500">
+              Agregar
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section id="accesorios">
+      <h3 class="section-title">🧣 Accesorios</h3>
+      <div class="grid">
+
+        <div class="card">
+          <img src="assets/image/imagenes/descarga (4).jpeg" class="card-img" alt="Collar ajustable">
+          <div class="card-body">
+            <h5 class="card-title">Collar Ajustable</h5>
+            <p class="card-text">Cómodo y resistente.</p>
+            <p class="price">$18.000</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-success agregar-carrito" data-nombre="Collar Ajustable" data-precio="18000">
+              Agregar
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/image/imagenes/descarga (5).jpeg" class="card-img" alt="Cama acolchada">
+          <div class="card-body">
+            <h5 class="card-title">Cama Acolchada</h5>
+            <p class="card-text">Para mayor descanso.</p>
+            <p class="price">$45.000</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-success agregar-carrito" data-nombre="Cama Acolchada" data-precio="45000">
+               Agregar
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+  </main>
+
+  
+<footer>
+  <div class="footer-container">
+    <p>&copy; PetZone derechos reservados</p>
+  
+  <div id="contacto">
+    <h4>contacto</h4>
+    <p class="text-card">Petzone@gmail.com</p>
+  </div>
+</div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
+
